@@ -37,7 +37,7 @@ main {
 
 .footer {
     position: relative;
-    width: auto;
+    width: 100%;
     bottom: 0;
     left: 0;
     padding-top: 80px;
@@ -49,6 +49,7 @@ main {
 
 .container {
     width: 100%;
+    max-width: 1200px;
     margin: auto;
     padding: 30px  40px;
 }
@@ -143,9 +144,11 @@ hr {
 
 .footer__bottom {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .copy__right {
@@ -179,12 +182,12 @@ hr {
 @media screen and (max-width: 768px) {
     .content__footer {
         flex-wrap: wrap;
-        justify-content: left;
+        justify-content: space-between;
     }
 
     .service__area {
         flex-wrap: wrap;
-        justify-content: left;
+        justify-content: space-between;
     }
 
     .service-header {

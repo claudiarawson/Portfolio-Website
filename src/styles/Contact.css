@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Footer";
+    src: url("src/assets/Epilogue/Epilogue-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.text {
+    flex: 2;
+}
+
+.image {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.floated {
+    float: left;
+    width: 400px;
+}
