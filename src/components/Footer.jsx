@@ -18,10 +18,9 @@ const Footer  = () => {
                             <p>Thank you for visiting! If you like my work, please check out my other social media:)</p>
                         </div>
                         <div className="social__media">
-                            <a href="#"><i className='bx bxl-linkedin-square'></i></a>
-                            <a href="#"><i className='bx bxl-github'></i></a>
-                            <a href="#"><i className='bx bx-envelope'></i></a>
-                            <a href="#"><i className='bx bxl-facebook-square' ></i></a>
+                            <a href="https://www.linkedin.com/in/claudiarawson/"><i className='bx bxl-linkedin-square'></i></a>
+                            <a href="https://github.com/claudiarawson"><i className='bx bxl-github'></i></a>
+                            <a href="claudiarawson2021@gmail.com"><i className='bx bx-envelope'></i></a>
                         </div>
                     </div>
                     <div className="service__area">
